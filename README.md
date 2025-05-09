@@ -14,18 +14,9 @@ A responsive and interactive **Meals Menu** web application built using **HTML**
 
 ---
 
-## 📁 Project Structure
-
-meals
-│
-├── index.html       # Main HTML file
-├── style.css        # Styling for the meals and layout
-└── app.js        # JavaScript for dynamic filtering
----
-
 ## 🚀 How It Works
 
-1. The `script.js` file contains an array of meal objects with properties like `id`, `title`, `category`, `img`, and `desc`.
+1. The `app.js` file contains an array of meal objects with properties like `id`, `title`, `category`, `img`, and `desc`.
 2. When the page loads, all meals are rendered dynamically using DOM manipulation.
 3. Unique categories are extracted from the meal data and used to create filter buttons.
 4. Clicking a filter button updates the view to show only meals in that category.
